@@ -11,10 +11,11 @@ First version, 21 November 2026: [zeta-paper.pdf](zeta-paper.pdf) (164 pages), [
 
 A working guide to Levent Alpöge's Lean-verified proof of the Riemann hypothesis, specialised to the Riemann
 zeta function, written as an aid to studying the proof in the language of classical analytic number theory.
-It deduces the Riemann hypothesis from one inequality, the main inequality (M), and two estimates for Dirichlet
-characters, and proves the two estimates. The inequality (M) is not proved there: the paper reduces (M), and with
-it the Riemann hypothesis, to thirteen numbered hypotheses stated in classical terms, none of which is proved
-outright, and states which inputs it takes from the Lean development. Section I.12 lists what remains to be
+It deduces the Riemann hypothesis from the main inequality (M), an upper bound for a weighted sum over prime
+powers, and two estimates for Dirichlet characters, which it proves, for suitably chosen auxiliary primes, from
+theorems in the literature. (M) itself is not proved there: the paper reduces it, and with it the Riemann
+hypothesis, to thirteen numbered hypotheses stated in classical terms, none of which is proved outright, and
+states which inputs it takes from the Lean development. Section I.12 lists what remains to be
 written up. Version 2 adds the objects of the construction, the reduction of (M) to numbered hypotheses, the
 lemniscate worked in full, and a census of the published results the Lean development uses.
 This is a work in progress.
