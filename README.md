@@ -1,4 +1,25 @@
-# The Alpöge–Claude proof of the Riemann hypothesis explained for the Riemann zeta function
+# Expository papers on the Lean proofs of the Riemann hypothesis
+
+Two papers by Michael O. Rubinstein, written with Claude, Codex and Gemini, as aids to studying the proofs in
+the language of classical analytic number theory. Both are works in progress.
+
+## An outline of the shortened proof of the Riemann Hypothesis
+
+**Version 1.5, 27 November 2026**
+
+- [rh-outline.pdf](rh-outline.pdf) (45 pages)
+- [rh-outline.tex](rh-outline.tex) (LaTeX source; a single self-contained file, compile with pdflatex three times)
+
+A study guide, in fifteen steps, to the shortened Lean proof of the Riemann hypothesis and of the generalized
+Riemann hypothesis for Dirichlet L-functions released on 25 November 2026 by Luke Sernau, colleagues at
+Anthropic and Claude ([lsernau/grh-lean](https://github.com/lsernau/grh-lean)). Steps 1-4 reduce the Riemann
+hypothesis to a one-sided bound for a sum over the primes inert in an imaginary quadratic field; the first three
+are proved in the paper and the fourth, a zero-density estimate, is outlined. Steps 5-10 explain the mechanism
+and deduce that bound from three theorems, A, B and C, of the Lean development; the deduction is proved in the
+paper. The three theorems themselves are stated and their proofs are outlined (Steps 11-14), but they are not
+proved there: they rest on the formal proof. An appendix works three small numerical examples.
+
+## The Alpöge–Claude proof of the Riemann hypothesis explained for the Riemann zeta function
 
 Claude Fable 5.2, Codex Astra 6.2, and Gemini Carbon, at the behest of Michael O. Rubinstein.
 
